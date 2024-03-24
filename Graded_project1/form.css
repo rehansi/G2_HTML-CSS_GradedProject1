@@ -20,8 +20,9 @@
 }
 
 .container::-webkit-scrollbar-thumb {
-  background: #ffffff;
+  background: grey;
 }
+
 
 .image img {
   height: auto;
