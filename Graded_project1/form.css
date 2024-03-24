@@ -15,6 +15,7 @@
   max-width: 850px;
   height: 400px;
 }
+
 .container::-webkit-scrollbar {
   width: 12px;
 }
@@ -65,10 +66,15 @@
   text-transform: capitalize;
 }
 
-.button input[type="submit"],
-.button input[type="reset"] {
+.button {
   position: absolute;
   top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button input[type="submit"],
+.button input[type="reset"] {
   background-color: rgb(204, 127, 255);
   color: white;
   padding: 5px;
@@ -77,19 +83,9 @@
   width: 50px;
 }
 
-.button input[type="reset"] {
-  left: calc(50% - 25px);
-}
-
-.button input[type="submit"] {
-  left: calc(52% + 25px);
-}
-
 @media (max-width: 768px) {
   .container {
     width: 90%;
     left: 5%;
   }
 }
-
-
