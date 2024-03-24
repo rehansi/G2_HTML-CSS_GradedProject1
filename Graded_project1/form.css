@@ -24,6 +24,7 @@
 }
 
 .image img {
+  background-position: right top;
   height: auto;
   max-width: 450px;
 }
@@ -90,3 +91,5 @@
     left: 5%;
   }
 }
+
+
