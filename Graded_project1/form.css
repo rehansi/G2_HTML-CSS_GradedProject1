@@ -23,10 +23,9 @@
   background: grey;
 }
 
-
 .image img {
   height: auto;
-  max-width: 100%;
+  max-width: 450px;
 }
 
 .submitform {
@@ -58,6 +57,7 @@
 }
 
 .date {
+  margin-bottom: 30px;
   font-size: 1rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
