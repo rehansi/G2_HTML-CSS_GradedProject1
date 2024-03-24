@@ -11,7 +11,9 @@
 <body>
     <section>
         <div class="container">
-
+            <div class="image">
+                <img src="Images/Lab-Test/lab-test.jpg">
+            </div>
             <div class="submitform">
                 <form>
                     <h2>1.Your Contact Details</h2>
@@ -28,19 +30,30 @@
                     <input type="number" placeholder="Area">
                     <h3>District</h3>
                     <select>
-                        <option selected>Shahdol</option>
+                        <option hidden selected disabled>Choose</option>
+                        <option>Shahdol</option>
                         <option>Mumbai</option>
                         <option>Chennai</option>
                         <option>Delhi</option>
                     </select>
                     <h3>Test Type</h3>
-                    <select>
-                        <option selected>CBC</option>
-                        <option>Complete Urine</option>
-                        <option>Lipid Profile</option>
-                        <option>Thyroid Stimulating Hormone(TSH)</option>
-                        <option>Glucose Test</option>
-                    </select>
+                    <p>Check atleast one box without fail</p>
+
+                    <input type="checkbox" id="cbc">
+                    <label for="cbc">CBC</label><br>
+
+                    <input type="checkbox" id="complete_urine">
+                    <label for="complete_urine">Complete Urine</label><br>
+
+                    <input type="checkbox" id="lipid_profile">
+                    <label for="lipid_profile">Lipid Profile</label><br>
+
+                    <input type="checkbox" id="tsh">
+                    <label for="tsh">Thyroid Stimulating Hormone(TSH)</label><br>
+
+                    <input type="checkbox" id="glucose_test">
+                    <label for="glucose_test">Glucose Test</label><br>
+
 
 
                     <h3>Do you want a hard copy of the report also?</h3>
@@ -61,9 +74,7 @@
 
             </div>
 
-            <div class="image">
-                <img src="Images/Lab-Test/lab-test.jpg">
-            </div>
+
         </div>
 
 
