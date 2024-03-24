@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  overflow: auto;
+  display: flex;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  border-radius: 2px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 80%; 
+  max-width: 850px;
+  height: 400px;
+}
+.container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+.image img {
+  height: auto;
+  max-width: 100%;
+
+}
+
+.submitform {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.submitform h2 ,.submitform h3 {
+ 
+  display: flex;
+  position: relative;
+  right: 20px;
+  margin: 5px ;
+    padding: 10px;
+}
+
+
+.submitform input {
+
+  border: none;
+  border-bottom: 1px solid rgb(166, 160, 160);
+  margin-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.submitform select {
+  
+  border: 1px solid rgb(166, 160, 160);
+  width: 100px;
+  height: 30px;
+}
+
+.date {
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: capitalize;
+}
+
+.button input[type="submit"],.button input[type="reset"] {
+  position: absolute;
+  top: 75%;
+  background-color: rgb(204, 127, 255);
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  width: 50px;
+  
+
+}
+
+.button input[type="reset"] {
+
+  left: calc(50% - 25px);   }
+
+  
+.button input[type="submit"]
+{
+  left: calc(52% + 25px);
+}
+
+
+@media (max-width: 768px) {
+  
+  .container {
+    width: 90%; 
+    left: 5%; 
+  }
+}
