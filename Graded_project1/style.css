@@ -54,7 +54,6 @@ header h1 {
   text-decoration: none;
 }
 
-
 .menu_bar ul a:hover {
   padding: 10px;
   background-color: rgb(0, 0, 0, 0.5);
@@ -67,7 +66,6 @@ header h1 {
   display: none;
   position: absolute;
   /* background-color: grey; */
-  
 }
 
 .menu_bar ul li:hover .drop_down {
